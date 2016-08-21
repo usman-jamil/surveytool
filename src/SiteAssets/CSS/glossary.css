@@ -1,0 +1,196 @@
+body {
+	font-size: 12px;
+	margin:0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	font-family: Arial;
+	color: #666;
+}
+
+h2 {
+	float: none !important;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.contentAreaDiv {
+	overflow: hidden;
+}
+
+.title-how-we-do {
+	color: #153985 !important;
+	font-family: EK03Plain-M01;
+	font-weight: normal;
+	float: none!important;
+}
+
+/*************************************Search area************************************************/
+
+.search > p {
+	padding-right: 55px;
+	margin-bottom: 10px;
+}
+
+.search-input {
+	width: 789px;
+	height: 38px;
+	background: url(../images/search-area-bg.png) no-repeat center left;
+}
+
+.searchBtn {
+	width: 32px !important;
+	height: 32px;
+	float: right;
+	border: none;
+	background: url(../images/btn-search-bg.png) no-repeat center left;
+	margin: 3px 3px 3px 3px;
+}
+.norecorddiv {
+	width: 425px !important;	
+	float: right;
+	align: left;	
+}
+
+.search-value {
+	margin: 4px 0px 4px 5px;
+	height: 29px;
+	width: 746px;
+	border: none;
+	color: #666666;
+	box-sizing: border-box;
+	padding: 5px;
+	padding-top: 7px;
+}
+
+.popularSearch {
+	width: 825px;
+	text-align: center;
+	margin-top: 10px;
+	color: #1c82c8;
+}
+
+.popularSearch p {
+	font-size: 15px;
+	font-weight: bold;
+	color: #1c82c8;
+}
+
+.popularSearch h3 {
+	float: none !important;
+}
+
+.popularSearch h2 {
+	width: auto !important;
+}
+
+
+.popularSearch h2, .popularSearch h4, .popularSearch h3 {
+	display: inline-block;
+	margin: 0px;
+	font-weight: normal;	
+}
+
+.popularSearch a {
+	color: #153985;
+	text-decoration: none;
+}
+ /*************************************List of popular topics************************************************/
+
+ .popularTopics {
+ 	border-top: 1px lightgrey;
+ 	height: auto;
+ 	width: 789px;
+ 	margin: 0px 40px 24px 0;
+ 	padding-top: 10px;
+ }
+
+ .firstRow {
+ 	height: 50px;
+ }
+
+ .alphabetList {
+ 	list-style: none;
+ 	margin-left: -35px;
+ }
+
+ .alphabetList li {
+ 	float: left;
+ 	font-size: 14px;
+ 	width: 27px;
+ 	height: 27px;
+ 	background: url(../images/li-bg.png) no-repeat center left;
+ 	margin-right: 3px;
+	text-align: center;
+	line-height: 27px;
+ }
+
+ .alphabetList li.selected {
+ 	background: url(../images/li-selected-bg.png) no-repeat center left;
+ }
+
+ .alphabetList li.selected a {
+ 	color: white;
+ }
+
+ .alphabetList li a {
+ 	text-decoration: none;
+ 	color: #979797;
+ }
+
+ .secondRow {
+
+ }
+.wordsTable {
+	width: 100%;
+	border-collapse: collapse;	
+}
+
+.wordsTable td {
+	height: 30px;
+	padding-left: 10px;
+}
+
+.wordsTable thead {
+	background-color: #1c82c8;		
+	border: 1px solid #1c82c8;	
+}
+
+.wordsTable thead td {
+	font-size: 14px !important;
+	color: white;
+}
+
+.wordsTable tbody td {
+	font-size: 13px;
+	border: 1px solid #dddddd;
+	color: #666;
+	background-color: #f8f8f8;
+}
+
+/**************************Jquery autocomplete********************************/
+
+.ui-autocomplete {
+	border: 1px solid #929292 !important;
+	width: 784px !important;
+	font-family: Arial !important;
+	color: #666666 !important;
+	font-size: 12px !important;
+}
+
+.ui-menu .ui-menu-item {
+	background: #fff;
+	width: 784px;
+	padding: 8px 1em 3px .4em !important;
+	box-sizing: border-box;
+	height: 31px;
+}
+
+.ui-autocomplete .ui-state-focus {
+	border: none !important;
+	border-top: none !important;
+	background: #e8f6fe !important;
+	margin: 0px !important;
+	color: #000 !important;
+	font-weight: normal !important;
+}

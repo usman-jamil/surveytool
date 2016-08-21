@@ -1,0 +1,38 @@
+.parent-selectedcompetencies
+{
+    border: 1px solid #B0D6ED;
+    margin: 10px;
+	width: 700px;
+	padding: 10px 10px 10px 10px;
+}
+
+.child-selectedcompetencies
+{
+    border: 1px solid lightgray;
+    min-height: 5em !important;
+	width: 680px;
+	height: 100%;
+	display: table;
+}
+
+.left-selectedcompetencies
+{
+    width: 20%;
+    background-color: #72A0C1;
+	color: white;
+    border-right: 1px solid lightgray;
+    min-height: 5em !important;
+    vertical-align: middle;
+	height: 100%;
+	font-weight: bold;
+	display: table-cell;
+}
+
+.right-selectedcompetencies
+{
+    min-height: 5em !important;
+    vertical-align: middle;
+    width: 80%;
+	height: 100%;
+	display: table-cell;
+}
