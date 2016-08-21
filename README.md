@@ -10,7 +10,7 @@ The survey was created for gathering basic information from business analysts. A
 1. [Application Structure](#application-structure)
   * [Site Structure](#site-structure)
   * [Custom Lists](#custom-lists)
-  * [Code Walk-Through](#code-walk-through)
+  * [Application Walk-Through](#application-walk-through)
   * [Information Architecture](#information-architecture)
   * [Reports](#reports)
   
